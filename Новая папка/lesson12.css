@@ -1,0 +1,436 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f8f8f8;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+.qadriddin1 {
+    background: #4196b9;
+    color: white;
+    min-height: 25px;
+    padding: 6px 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    font-size: 10px;
+}
+.qadriddin2 {
+    background: white;
+    min-height: 52px;
+    padding: 12px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    border-bottom: 3px solid hsl(201, 77%, 51%);
+}
+
+.qadriddin3 {
+    font-size: 21px;
+    color: #3099ce;
+    font-weight: bold;
+}
+
+.qadriddin4 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.qadriddin4 a:hover {
+    color: hsl(199, 82%, 47%);
+}
+
+.qadriddin5 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 11px;
+}
+.qadriddin6 {
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+    background: hsl(193, 89%, 81%);
+}
+
+.qadriddin7 {
+    position: absolute;
+    z-index: 2;
+    top: 28px;
+    left: 15px;
+    right: 15px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 1px 4px hsl(202, 50%, 28%);
+}
+
+.qadriddin7 h1 {
+    font-size: clamp(19px, 2.5vw, 30px);
+}
+
+.qadriddin8 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.qadriddin9 {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.qadriddin9 span {
+    width: 24px;
+    height: 3px;
+    background: hsl(0, 0%, 100%);
+}
+
+.qadriddin9 span:first-child {
+    background: hsl(200, 80%, 44%);
+}
+.qadriddin10 {
+    max-width: 1250px;
+    margin: 24px auto;
+    padding: 0 4%;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    gap: 20px;
+}
+
+.qadriddin11 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.qadriddin11 h3 {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.qadriddin11 p {
+    font-size: 11px;
+    color: hsl(0, 0%, 47%);
+    margin-bottom: 15px;
+}
+
+.qadriddin11 a {
+    background: hsl(197, 55%, 47%);
+    color: white;
+    padding: 9px 12px;
+    border-radius: 3px;
+    font-size: 10px;
+}
+
+.qadriddin12 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.qadriddin13 {
+    position: relative;
+    padding: 8px;
+    background: white;
+    border: 1px solid hsl(0, 0%, 88%);
+    border-radius: 5px;
+    min-width: 0;
+}
+
+.qadriddin13 img {
+    width: 100%;
+    height: 115px;
+    object-fit: contain;
+    background: #e5f8fc;
+    border-radius: 4px;
+}
+
+.qadriddin13 h4 {
+    font-size: 11px;
+    margin: 8px 0 5px;
+}
+
+.qadriddin13 p {
+    color: hsl(197, 72%, 45%);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.qadriddin13 del {
+    font-size: 10px;
+    color: hsl(0, 0%, 60%);
+    font-weight: normal;
+}
+
+.qadriddin14 {
+    position: absolute;
+    z-index: 2;
+    top: 12px;
+    left: 12px;
+    padding: 4px;
+    border-radius: 50%;
+    color: white;
+    background: hsl(347, 80%, 62%);
+    font-size: 9px;
+}
+.qadriddin15 {
+    max-width: 1250px;
+    margin: 30px auto;
+    padding: 0 4%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.qadriddin16 {
+    min-height: 180px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    background: linear-gradient(110deg, hsl(194, 64%, 56%), #a4f0fa);
+    display: flex;
+    align-items: center;
+}
+
+.qadriddin16 img {
+    width: 58%;
+    height: 180px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.qadriddin16 div {
+    padding: 10px;
+    color: white;
+}
+
+.qadriddin16 p,
+.qadriddin18 p {
+    font-size: 10px;
+}
+
+.qadriddin16 h3 {
+    font-size: 14px;
+}
+.qadriddin17 {
+    max-width: 1250px;
+    margin: 25px auto;
+    padding: 0 4%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.qadriddin18 {
+    min-height: 200px;
+    background: linear-gradient(110deg, hsl(192, 68%, 57%), #b1f1fa);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.qadriddin18 img {
+    width: 55%;
+    height: 200px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+.qadriddin18 div {
+    color: white;
+    padding: 10px;
+}
+
+.qadriddin18 h3 {
+    font-size: 14px;
+}
+
+.qadriddin19 {
+    max-width: 1250px;
+    margin: 30px auto;
+    padding: 24px;
+    background: white;
+    border: 4px solid hsl(321, 100%, 60%);
+}
+
+.qadriddin19 > h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 900px) {
+    .qadriddin1 {
+        font-size: 9px;
+    }
+
+    .qadriddin2 {
+        padding: 12px 3%;
+        gap: 10px;
+    }
+
+    .qadriddin4 {
+        gap: 10px;
+        font-size: 11px;
+    }
+
+    .qadriddin10 {
+        grid-template-columns: 130px 1fr;
+    }
+
+    .qadriddin12 {
+        gap: 7px;
+    }
+
+    .qadriddin13 img {
+        height: 95px;
+    }
+
+    .qadriddin16,
+    .qadriddin16 img {
+        min-height: 150px;
+        height: 150px;
+    }
+}
+@media (max-width: 600px) {
+    .qadriddin1 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px 15px;
+        font-size: 9px;
+    }
+
+    .qadriddin2 {
+        flex-wrap: wrap;
+        padding: 12px 15px;
+    }
+
+    .qadriddin3 {
+        font-size: 20px;
+    }
+
+    .qadriddin4 {
+        order: 3;
+        width: 100%;
+        overflow-x: auto;
+        justify-content: flex-start;
+        gap: 17px;
+        padding-top: 8px;
+    }
+
+    .qadriddin5 {
+        margin-left: auto;
+    }
+
+    .qadriddin6 {
+        height: 210px;
+    }
+
+    .qadriddin7 {
+        top: 20px;
+    }
+
+    .qadriddin7 h1 {
+        font-size: 19px;
+    }
+
+    .qadriddin10 {
+        grid-template-columns: 1fr;
+        padding: 0 12px;
+        gap: 12px;
+    }
+
+    .qadriddin11 h3 {
+        font-size: 16px;
+    }
+
+    .qadriddin12 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+    }
+
+    .qadriddin13 img {
+        height: 110px;
+    }
+
+    .qadriddin15 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding: 0 12px;
+        gap: 10px;
+    }
+
+    .qadriddin16 {
+        min-height: 125px;
+    }
+
+    .qadriddin16 img {
+        height: 125px;
+        width: 55%;
+    }
+
+    .qadriddin16 h3 {
+        font-size: 11px;
+    }
+
+    .qadriddin16 p,
+    .qadriddin18 p {
+        font-size: 9px;
+    }
+
+    .qadriddin17 {
+        grid-template-columns: 1fr;
+        padding: 0 12px;
+        gap: 10px;
+    }
+
+    .qadriddin18 {
+        min-height: 155px;
+    }
+
+    .qadriddin18 img {
+        height: 155px;
+    }
+
+    .qadriddin18 h3 {
+        font-size: 12px;
+    }
+
+    .qadriddin19 {
+        margin: 20px 8px;
+        padding: 12px;
+        border-width: 3px;
+    }
+
+}
